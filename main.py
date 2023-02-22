@@ -22,7 +22,7 @@ class RandomPicture():
         return Image.open(path)
 
 if __name__ == "__main__":
-    picker = RandomPicture("C:/Users/Nikol/Carweb/Pictures")
+    picker = RandomPicture("C:/Users/Nikol/Carweb/ImageDownloader/images")
     image = picker.get_random_picture()  # Get a random picture
 
     st.set_page_config(page_title="Environment",
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 
 
-picker = RandomPicture("C:/Users/Nikol/Carweb/Pictures")
+picker = RandomPicture("C:/Users/Nikol/Carweb/ImageDownloader/images")
 
 image = picker.get_random_picture()  # Get a random picture
 
